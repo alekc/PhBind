@@ -1,0 +1,25 @@
+{
+    "name": "alekc/phbind",
+    "type": "library",
+    "description": "Bind php library",
+    "keywords": ["bind9", "php", "library"],
+    "homepage": "https://github.com/Alekc/PhBind",
+    "license": "GPL v2",
+    "authors": [
+        {
+            "name": "Alexander Chernov",
+            "email": "alekcander@gmail.com",
+            "role": "Developer/Creator"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/Alekc/PhBind/issues"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-0": { "PhBind": "lib/" }
+    }
+}
